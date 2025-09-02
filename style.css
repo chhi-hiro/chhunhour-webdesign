@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lalezar&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  background-image: url(./Funky\ Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navBar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 4rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.nav ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+ul a {
+  color: #bdb8b8;
+  text-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+  font-size: 1.5rem;
+  margin-right: 50px;
+  transition: all 0.5s ease;
+}
+
+.name {
+  color: #4745da;
+  text-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+}
+ul a:active {
+  color: cyan;
+  text-shadow: 0 0 15px cyan;
+  font-size: 2rem;
+}
+
+.contact {
+  background-color: #24367f;
+  color: white;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+/* ----------------- */
+.homepage {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 180px 10px;
+}
+
+.profile {
+  max-height: 38rem;
+  max-width: 38rem;
+  aspect-ratio: 1/1;
+}
+.profile .pic1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 15px groove dodgerblue;
+}
+.greeting {
+  font-size: 2rem;
+}
+h2 {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.greeting h2 {
+  color: #bdb8b8;
+}
+.greeting .name {
+  font-size: 4rem;
+}
+.icon a {
+  /* background-color: white; */
+  padding: 10px;
+
+  font-size: 3.5rem;
+}
+
+.icon {
+  padding-left: 15px;
+  margin-left: 5px;
+}
+
+.fab.fa-telegram {
+  color: #27a7e7; /* Telegram blue */
+}
+.fab.fa-facebook {
+  color: #1877f2;
+}
+.greeting .contact {
+  position: relative;
+  top: 20px;
+  margin: 10px;
+  font-size: 2rem;
+  padding: 5px;
+}
+.greeting > * {
+  padding-bottom: 0px;
+}
+/* Introduction */
+.about {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 180px;
+}
+.about p {
+  font-family: "Poppins", sans-serif;
+}
+.profile .pic2 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 15px groove dodgerblue;
+}
+
+.introduce h2 {
+  font-size: 4rem;
+  color: #dd080b;
+}
+
+.introduce p {
+  font-size: 2rem;
+  color: #bdb8b8;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Skill h2,
+.achievement h2 {
+  font-size: 4rem;
+  text-align: center;
+  color: #dd080b;
+}
+.img {
+  text-align: center;
+  margin-top: 30px;
+}
+.img img {
+  margin: 40px;
+  height: 10rem;
+}
+.achievement {
+  height: 80vh;
+  margin-top: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+.card {
+  background-color: white;
+  border: 5px solid dodgerblue;
+  border-radius: 18px;
+  box-shadow: 0 4px 4px #24367f;
+}
+.card img {
+  height: 450px;
+}
+.card p {
+  text-align: center;
+  font-size: 2rem;
+  color: #020071;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.footer {
+  text-align: center;
+}
+.footer > * {
+  padding: 5px;
+}
+.footer .name {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+}
+.footer p {
+  color: #bdb8b8;
+}
